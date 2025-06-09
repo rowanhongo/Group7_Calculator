@@ -1,46 +1,91 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #e6ffe6;
-  color: #4b0082;
-  padding: 20px;
-  margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-header, footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #d1ffd1;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form {
-  margin-bottom: 20px;
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-label, input, button {
-  display: block;
-  margin: 10px 0;
+header h1 {
+    margin: 0;
+    color: #333;
 }
 
-button {
-  background-color: #b19cd9;
-  border: none;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
 }
 
-button:hover {
-  background-color: #a17fc3;
+.input-section input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.input-section button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-li {
-  background-color: #f0f0ff;
-  margin: 5px 0;
-  padding: 10px;
-  border-left: 4px solid #b19cd9;
+.list-section {
+    margin-bottom: 20px;
 }
+
+.list-section h2 {
+    margin-top: 0;
+}
+
+#assignmentsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.delete-button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.gpa-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+
